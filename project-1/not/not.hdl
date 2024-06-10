@@ -1,6 +1,6 @@
 /**
  * Not gate:
- * if in=0 then out=1 else out=0
+ * if (in) out = 0, else out = 1
  */
 CHIP Not {
     IN in;

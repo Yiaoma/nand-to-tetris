@@ -1,6 +1,7 @@
 /**
  * 16-bit And gate:
- * for 16-bit input a and b, output is a & b
+ * for i = 0, ..., 15:
+ * out[i] = a[i] And b[i] 
  */
 CHIP And16 {
     IN a[16], b[16];

@@ -1,6 +1,7 @@
 /**
  * Demultiplexor:
- * if sel=0, then a=in and b=0 else a=0 and b=in
+ * [a, b] = [in, 0] if sel = 0
+ *          [0, in] if sel = 1
  */
 CHIP Dmux {
     IN in, sel;

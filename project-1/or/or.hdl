@@ -1,6 +1,6 @@
 /**
  * Or gate:
- * if a=b=0 then out=0 else out=1
+ * if (a or b) out = 1, else out = 0 
  */
 CHIP Or {
     IN a, b;
